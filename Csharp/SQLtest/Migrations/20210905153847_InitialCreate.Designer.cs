@@ -10,7 +10,7 @@ using SQLtest;
 namespace SQLtest.Migrations
 {
     [DbContext(typeof(MyContext))]
-    [Migration("20210905075142_InitialCreate")]
+    [Migration("20210905153847_InitialCreate")]
     partial class InitialCreate
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
