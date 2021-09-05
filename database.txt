@@ -1,0 +1,31 @@
+using System;
+using Npgsql;
+
+namespace CreateTable
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var cs = "Host=localhost;Username=postgres;Password=252801;Database=iasidata";
+
+            using var con = new NpgsqlConnection(cs);
+            con.Open();
+
+            using var cmd = new NpgsqlCommand();
+            cmd.Connection = con;
+
+            cmd.CommandText = "DROP TABLE IF EXISTS methane";
+            cmd.ExecuteNonQuery();
+
+            cmd.CommandText = @"CREATE TABLE methane(id SERIAL PRIMARY KEY, 
+                    time TIMESTAMP, longitude FLOAT8, latitude FLOAT8, methaneppb FLOAT8)";
+            cmd.ExecuteNonQuery();
+
+            cmd.CommandText = "INSERT INTO methane(longitude,latitude) VALUES(1.1,1.2)";
+            cmd.ExecuteNonQuery();
+
+            Console.WriteLine("Table methane created");
+        }
+    }
+}
