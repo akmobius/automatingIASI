@@ -10,7 +10,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.txt = README.txt
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MethaneTest", "MethaneTest\MethaneTest.csproj", "{442AFB7F-B11F-4793-B697-55009B7ECD9A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MethaneTest", "MethaneTest\MethaneTest.csproj", "{442AFB7F-B11F-4793-B697-55009B7ECD9A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetCDFTest", "NetCDFTest\NetCDFTest.csproj", "{90AA9E42-84C7-4449-A4B0-3780F8478934}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,6 +28,10 @@ Global
 		{442AFB7F-B11F-4793-B697-55009B7ECD9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{442AFB7F-B11F-4793-B697-55009B7ECD9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{442AFB7F-B11F-4793-B697-55009B7ECD9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90AA9E42-84C7-4449-A4B0-3780F8478934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90AA9E42-84C7-4449-A4B0-3780F8478934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90AA9E42-84C7-4449-A4B0-3780F8478934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90AA9E42-84C7-4449-A4B0-3780F8478934}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
