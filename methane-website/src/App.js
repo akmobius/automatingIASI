@@ -1,6 +1,6 @@
 import './App.css';
 import Header from './Components/header'
-import Table from './Components/table'
+import Table from './Components/table/table'
 
 function App() {
   return (

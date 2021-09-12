@@ -1,0 +1,7 @@
+[
+    {"ID":0, "Date":"09/12/2021", "Latitude":"100", "Longitude":"10", "Methane":"1900" },
+    {"ID":1, "Date":"09/12/2021", "Latitude":"100", "Longitude":"10", "Methane":"1800" },
+    {"ID":2, "Date":"09/12/2021", "Latitude":"100", "Longitude":"10", "Methane":"1700" },
+    {"ID":3, "Date":"09/12/2021", "Latitude":"100", "Longitude":"10", "Methane":"1600" },
+    {"ID":4, "Date":"09/12/2021", "Latitude":"100", "Longitude":"10", "Methane":"1500" }
+  ]

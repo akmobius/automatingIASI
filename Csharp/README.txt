@@ -19,3 +19,6 @@ Linux
 For Linux install pre-built netCDF-C libraries. For example on Ubuntu:
 
 sudo apt-get install libnetcdf-dev
+
+add symbolic link:
+ sudo ln -s /usr/lib/x86_64-linux-gnu/libnetcdf.so.15 /usr/lib/libnetcdf.so.7
